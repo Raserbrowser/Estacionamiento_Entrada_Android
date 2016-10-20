@@ -29,7 +29,7 @@ namespace Estacionamiento_Entrada_Android
             EditText folio = FindViewById<EditText>(Resource.Id.editText1);
 
             button.Click += delegate
-            {
+            {//conector
                 string connsqlstring = "Server=192.168.0.31;Port=3306;database=estacionamiento;User Id=root;Password=root;charset=utf8";
                 int cont = 0;
                 try
