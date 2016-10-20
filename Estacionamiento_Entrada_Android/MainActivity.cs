@@ -10,7 +10,7 @@ using System.Data;
 
 
 namespace Estacionamiento_Entrada_Android
-{
+{//le agrega el color establecido 
     [Activity(Theme = "@style/Theme.Custom", Label = "Estacionamiento Entrada", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
